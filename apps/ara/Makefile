@@ -83,6 +83,7 @@ SUBDIRS += svc
 SUBDIRS += svc_power
 SUBDIRS += unipro
 SUBDIRS += usb-host
+SUBDIRS += nklabs
 
 # Sub-directories that might need context setup.  Directories may need
 # context setup for a variety of reasons, but the most common is because
@@ -107,6 +108,7 @@ CNTXTDIRS += svc
 CNTXTDIRS += svc_power
 CNTXTDIRS += unipro
 CNTXTDIRS += usb-host
+CNTXTDIRS += nklabs
 endif
 
 all: nothing

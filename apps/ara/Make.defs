@@ -138,3 +138,15 @@ endif
 ifeq ($(CONFIG_ARA_GB_TAPE),y)
 CONFIGURED_APPS += ara/gb_tape
 endif
+
+ifeq ($(CONFIG_NKLABS_LAB1),y)
+CONFIGURED_APPS += ara/nklabs/lab1
+endif
+
+ifeq ($(CONFIG_NKLABS_LAB2),y)
+CONFIGURED_APPS += ara/nklabs/lab2
+endif
+
+ifeq ($(CONFIG_NKLABS_LAB3),y)
+CONFIGURED_APPS += ara/nklabs/lab3
+endif
